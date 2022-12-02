@@ -34,9 +34,6 @@ let delComments = {
     Authorization:
       "Bearer 017f287d187c889396ebde574d1162096ebf76ea37fab776d15e0ff5367006d0",
   },
-  body: JSON.stringify({
-    id: "1753",
-  }),
 };
 
 let newComment = {
@@ -79,7 +76,7 @@ let GetPosts = {
 //   .then((response) => response.json())
 //   .then((response) => console.log(response));
 
-fetch("https://gorest.co.in/public/v2/posts/1838/comments", GetPosts)
+fetch("https://gorest.co.in//public/v2/posts/2387/comments", GetPosts)
   .then((response) => response.json())
   .then((response) => console.log(response));
 
@@ -99,6 +96,6 @@ fetch("https://gorest.co.in/public/v2/posts/1838/comments", GetPosts)
 //   .then((response) => response.json())
 //   .then((response) => console.log(response));
 
-// fetch("https://gorest.co.in/public/v2/posts/1838/comments", delComments)
+// fetch("https://gorest.co.in/public/v2/comments/2393", delComments)
 //   .then((response) => response.json())
-//   .then((response) => console.log(response));
+//   .then(console.log("commets deleted"));
